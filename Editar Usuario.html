@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Editar Usuario</title>
-    <link rel="shortcut icon" href="Imagenes/logo2.png" type="image/x-icon">
+    <link rel="shortcut icon" href="Imagenes sistema/logo2.png" type="image/x-icon">
      <link rel="stylesheet" href="Estilos css/Notificaciones.css">
     <link rel="stylesheet" href="Estilos css/Inicio.css">
     <script src="Javascrpits/Editar Usuario.js"></script>
@@ -13,17 +13,17 @@
 </head>
 <body>
     <header>
-        <div class="logo"><img src="Imagenes/logo2.png" alt="Logo" class="logoimg"></div>
+        <div class="logo"><a href="Inicio2.html"><img src="Imagenes sistema/logo2.png" alt="Logo" class="logoimg"></a></div>
         <nav class="cambio">
           <a href="Inicio2.html">Inicio</a>
           <a href="Catalogoprincipal.html">Catalogo</a>
           <a href="Nuestros contactos2.html">Contactanos</a>
         </nav>
         <div class="iconos-header">
-          <a href="Carrito2.html"><img src="Imagenes/carrito.png" alt="carrito" class="icono-noti"></a>
+          <a href="Carrito2.html"><img src="Imagenes sistema/carrito.png" alt="carrito" class="icono-noti"></a>
           <a href="Notificaciones2.html"><img src="https://cdn-icons-png.flaticon.com/512/3602/3602145.png" alt="Notificaciones" class="icono-noti"></a>
           <div class="perfil-usuario">
-            <a href="Usuario.html"><img src="Imagenes/Usuario .jpg" alt="Usuario"></a>
+            <a href="Usuario.html"><img src="Imagenes sistema/Usuario .jpg" alt="Usuario"></a>
             <span class="estado-online"></span>
           </div>
         </div>
@@ -43,7 +43,7 @@
                             </div>
                             <div class="mb-3 form-foto">
                             <label class="form-foto" for="check">Cambiar foto de perfil</label>
-                            <input type="file" name="imagen" accept="image/*">
+                            <input type="file" name="imagen" accept="image/*" placeholder="Selecciona una imagen" id="check" class="form-control">
                             </div>
                             <div class="mb-3 form-fecha">
                             <label for="fecha">Fecha de nacimiento:</label>
@@ -56,9 +56,9 @@
                                 <option value="masculino">Masculino</option>
                                 <option value="femenino">Femenino</option>
                             </select>
-                            </div>
+                            </div>  
                         </form>
-                        <button id="actualizarPerfil" class="btn btn-primary">Actualizar</button>   
+                        <button type="submit" id="actualizarPerfil" class="btn btn-primary">Actualizar</button>   
                     </div>
                 </div>
             </div>
